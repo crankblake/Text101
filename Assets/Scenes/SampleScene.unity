@@ -223,6 +223,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 116347911}
+  - component: {fileID: 116347912}
   m_Layer: 0
   m_Name: Game
   m_TagString: Untagged
@@ -238,12 +239,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 116347910}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1162.0653, y: 528.4713, z: 23}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &116347912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116347910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfffe100ab460484cae8e915903d1b42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 1160767845}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,13 +672,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'AMERICA used to be great but now is super shitty. You are a 71-year-old
-    reality TV star named Donald Trump. What do you do?
+  m_Text: 'This is the default text
 
-
-    1. Run for president.
-
-    2. Enjoy the rest of your life. You are a celebrity. '
+'
 --- !u!222 &1160767846
 CanvasRenderer:
   m_ObjectHideFlags: 0
