@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42e527530af6f01438407d617622f079, type: 3}
+  m_Name: A0
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to this super great game of MAGA Choose Your Own Adventure.
+
+    At each stage you''ll need to enter "1" or "2" on the keyboard.
+
+    At any point in time, you can press "q" to quit.
+
+
+    1. Press "1" to BEGIN'
+  nextStates:
+  - {fileID: 11400000, guid: 466aa9df7248b97449b2db9e6da48f6d, type: 2}
